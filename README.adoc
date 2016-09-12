@@ -1,12 +1,18 @@
 = Pivotal Cloud Foundry dotnet core example
 
-1. Install dotnet core - https://www.microsoft.com/net/core
-2. Clone this repo
-3. Run it locally
+## Install dotnet core
+----
+>  Download from https://www.microsoft.com/net/core
+----
+## Clone this repo
+----
+> git clone https://github.com/rossr3-pivotal/pcf-dotnet-core-simple-aspnet
+----
+## Run it locally
 ----
 > dotnet run
 ----
-4. Push the app
+## Push the app
 ---- 
 > cf push dotnetcore -b https://github.com/cloudfoundry-community/dotnet-core-buildpack
 ----
