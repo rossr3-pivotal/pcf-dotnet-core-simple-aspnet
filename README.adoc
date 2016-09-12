@@ -1,0 +1,10 @@
+= Pivotal Cloud Foundry dotnet core example
+
+1. Install dotnet core - https://www.microsoft.com/net/core
+2. Push the app
+---- 
+> cf push dotnetcore -b https://github.com/cloudfoundry-community/dotnet-core-buildpack
+----
+
+Additional details can be found here: http://blog.grogscave.net/2016/06/pushing-your-first-net-core-10-rtm-apps.html and here: https://github.com/cloudfoundry-community/dotnet-core-buildpack 
+
