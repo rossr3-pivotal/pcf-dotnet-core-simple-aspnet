@@ -8,6 +8,10 @@
 ----
 > git clone https://github.com/rossr3-pivotal/pcf-dotnet-core-simple-aspnet
 ----
+## Restore Dependencies
+----
+> dotnet restore
+----
 ## Run it locally
 ----
 > dotnet run
